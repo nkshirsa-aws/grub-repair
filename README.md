@@ -2,6 +2,7 @@
 ————————————————————
 GRUB Repair Utility
 ————————————————————
+
 A comprehensive utility for diagnosing and repairing Linux boot issues related to the GRUB bootloader.
 
 
