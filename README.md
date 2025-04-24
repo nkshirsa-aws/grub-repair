@@ -1,1 +1,46 @@
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+</div>
 
+###
+
+<div align="center">
+</div>
+
+###
+
+<h1 align="center">Hello, Folks! 👋</h1>
+
+###
+
+<h3 align="left">🕵🏼‍♀️ About Me</h3>
+
+###
+
+<p align="left">🕹️ 𝐀𝐬 𝐚𝐧 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐄𝐧𝐭𝐡𝐮𝐬𝐢𝐚𝐬𝐭<br><br>🖥 𝐀𝐖𝐒 𝐂𝐒𝐀 𝐢𝐧 𝐀𝐦𝐚𝐳𝐨𝐧<br><br>🔖 𝐈 𝐛𝐞𝐥𝐢𝐞𝐯𝐞 𝐢𝐧: "𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐢𝐬 𝐧𝐨𝐭 𝐚𝐛𝐨𝐮𝐭 𝐫𝐞𝐩𝐥𝐚𝐜𝐢𝐧𝐠 𝐡𝐮𝐦𝐚𝐧𝐬; 𝐢𝐭'𝐬 𝐚𝐛𝐨𝐮𝐭 𝐚𝐦𝐩𝐥𝐢𝐟𝐲𝐢𝐧𝐠 𝐡𝐮𝐦𝐚𝐧 𝐩𝐨𝐭𝐞𝐧𝐭𝐢𝐚𝐥." - 𝐌𝐚𝐫𝐜 𝐏𝐞𝐭𝐨𝐜𝐤, 𝐋𝐲𝐧𝐱𝐬𝐩𝐫𝐢𝐧𝐠</p>
+
+###
+
+<h3 align="left">🛠 Language and tools</h3>
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="amazonwebservices logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="bash logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="pycharm logo"  />
+</div>
+
+###
+
+<p align="left">-----------------<br>𝐀𝐛𝐨𝐮𝐭 𝐭𝐡𝐢𝐬 𝐑𝐞𝐩𝐨<br>-----------------<br><br>A comprehensive utility for diagnosing and repairing Linux boot issues related to the GRUB bootloader.<br><br>-----------<br>𝐎𝐯𝐞𝐫𝐯𝐢𝐞𝐰<br>-----------<br><br>This script helps troubleshoot and fix common boot problems on Linux systems by checking and repairing key components of the boot process:<br><br>   - GRUB bootloader configuration<br>   - Kernel availability<br>   - Initramfs/initrd files<br>   - Boot partition settings<br><br>It provides a guided, interactive process to safely repair your system when it fails to boot properly.<br><br>------------------------<br>𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐝 𝐃𝐢𝐬𝐭𝐫𝐢𝐛𝐮𝐭𝐢𝐨𝐧𝐬<br>------------------------<br>- Red Hat Enterprise Linux<br>- CentOS<br>- Rocky Linux<br>- AlmaLinux<br>- Ubuntu<br>- Debian<br>- SUSE Linux<br>- Amazon Linux<br><br>----------------------<br>𝐒𝐭𝐞𝐩-𝐛𝐲-𝐒𝐭𝐞𝐩 𝐏𝐫𝐨𝐜𝐞𝐬𝐬<br>----------------------<br>1. The script will display available storage devices<br>2. Select the root partition of your non-booting system<br>3. If you have a separate boot partition, specify it when prompted<br>4. The script will identify your Linux distribution<br>5. It will analyze your boot configuration for issues<br>6. If problems are found, you'll be given repair options<br>7. Choose whether to repair the identified issues<br>8. The script will generate a summary report when finished<br><br>----------------<br>𝐒𝐚𝐟𝐞𝐭𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬<br>----------------<br>- Creates backups of your /boot directory before making changes<br>- Checks for prerequisites before executing repairs<br>- Verifies repairs after they are completed<br>- Uses color-coded output to highlight important information<br>- Safely unmounts all partitions when finished<br><br>--------------------<br>𝐂𝐨𝐦𝐦𝐨𝐧 𝐒𝐜𝐞𝐧𝐚𝐫𝐢𝐨𝐬<br>--------------------<br>>>  Missing GRUB Configuration<br><br>If your system has a missing or corrupted GRUB configuration, this script will detect it and offer to:<br>- Reinstall GRUB to the disk<br>- Generate a new configuration file<br><br>>> Missing or Corrupt Initramfs<br><br>If your initramfs files are missing or don't match your kernels, the script can:<br>- Identify which kernels are missing initramfs files<br>- Rebuild the initramfs files for existing kernels<br><br>>> No Bootable Kernel Found<br><br>If your system is missing kernels, the script can:<br>- Install a new kernel package appropriate for your distribution<br>- Generate the required initramfs for the new kernel<br><br>----------<br>𝐄𝐱𝐞𝐜𝐮𝐭𝐢𝐨𝐧<br>----------<br># For RHEL/CentOS/Fedora<br>	sudo dnf install git<br># or<br>	sudo yum install git<br><br>git clone https://github.com/nkshirsa-aws/grub-repair.git<br>cd grub-repair<br>chmod +x grub-repair.sh<br>sudo ./grub-repair.sh<br><br>-------------<br>𝐂𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐢𝐨𝐧<br>-------------<br>Feel free to submit issues or pull requests to improve this utility. Contributions are welcome!</p>
+
+###
